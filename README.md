@@ -11,3 +11,4 @@ Because of the 3 dimensions, the data any image contains is huge, so it was nece
 (Total data kept from the original image is 1/8).
 
 Pay attention to the 3D-Maxpooling layers, which do the big difference from normal CNN.
+The network yielded pretty good result - 93% accuracy.
