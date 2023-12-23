@@ -13,4 +13,4 @@ Because of the 3 dimensions, the data any image contains is huge, so it was nece
 Pay attention to the 3D-Maxpooling layers, which do the big difference from normal CNN.
 The network yielded pretty good result - 93% accuracy.
 
-The K-Fold Cross validation test prooves the stability of the model too.
+The K-Fold Cross validation test proves the stability of the model too.
