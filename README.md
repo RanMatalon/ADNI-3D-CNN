@@ -7,10 +7,12 @@ The dataset contains 3 labels:
 * MCI - Mild cognitive impairment
 * AD - Alzheimer Disease
 
-Because of the 3 dimensions, the data any image contains is huge, so it was necessary to resize any dimension by 1/2
-(Total data kept from the original image is 1/8).
+Because of the 3 dimensions, the data any image contains is huge, so it was necessary to resize any dimension by 0.65.
 
 Pay attention to the 3D-Maxpooling layers, which do the big difference from normal CNN.
 The network yielded pretty good result - 93% accuracy.
 
 The K-Fold Cross validation test proves the stability of the model too.
+
+Then, we explore the activations of the model on the image and how it detects AD, through plotting slices of the image at
+any activation layer.
